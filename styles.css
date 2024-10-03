@@ -1,0 +1,163 @@
+body{
+   /* background-image: url("jor4.webp"); */
+   background-color: #F5EDED;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.navbar{
+    background-color: #7FA1C3;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navbar a{
+    color: black;
+    text-align: center;
+    
+}
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Ensure items wrap on smaller screens */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Form styling */
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Heading styling */
+.h2, .h1 {
+    margin: 0;
+}
+
+.h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+/* Button styling */
+.btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+/* Image styling */
+img.responsive {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+}
+/* Style for images */
+.container-2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    background-color: aqua;
+    object-fit: cover; /* Ensure the image covers the area properly */
+}
+
+/* Style for individual product containers */
+.container-2 {
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Responsive adjustments */
+@media (min-width: 576px) {
+    .container-2 {
+        width: 45%;
+    }
+}
+
+
+.dropdown button{
+    background-color: #7FA1C3;
+    border: none;
+    color: black;
+    padding-top: 0;
+}
+.container-3{
+    width: 400px;
+    height: 420px;
+    display: flex;
+    margin-top: 80px ;
+    border-color:#7FA1C3;
+}
+.container-5{
+    width: 400px;
+    height: 520px;
+    display: flex;
+    margin-top: 90px;
+    background-color: white;
+}
+.container-5 button{
+    margin-left: 55px;
+}
+.container-5 a {
+    color: blue;
+}
+.logo{
+    mix-blend-mode: multiply;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+.signup-link-button{
+    display: flex;
+    margin-right:40px;
+   
+}
+.signup-submit-button{
+    display: flex;
+    justify-content: center;
+    margin-right: 32px;
+}
+.signup-link-button .img1{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-top: 4px;
+   
+}
+.signup-link-button .img2{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-top: 4px;
+    margin-left: -10px;
+}
+
+
